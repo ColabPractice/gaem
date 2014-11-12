@@ -1,0 +1,82 @@
+﻿Log file open, 11/11/14 19:44:38
+LogInit:Display: Running engine for game: gaem
+LogInit: Version: 4.5.1-2336687+++depot+UE4-Releases+4.5
+LogInit: API Version: 2326478
+LogInit: Compiled (64-bit): Oct 21 2014 22:32:40
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.5
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.5/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.12-00.44.38:867][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.12-00.44.38:899][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.12-00.44.38:921][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.12-00.44.38:928][  0]LogInit: Object subsystem initialized
+[2014.11.12-00.44.38:930][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2014.11.12-00.44.38:930][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matt/Projects/gaem/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.12-00.44.38:930][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2014.11.12-00.44.38:930][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Matt/Projects/gaem/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2014.11.12-00.44.38:930][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.12-00.44.38:930][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.12-00.44.38:935][  0]LogInit: Computer: BIGRED
+[2014.11.12-00.44.38:935][  0]LogInit: User: Matt
+[2014.11.12-00.44.38:936][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.12-00.44.38:936][  0]LogInit: High frequency timer resolution =3.561796 MHz
+[2014.11.12-00.44.38:936][  0]LogMemory: Memory total: Physical=15.7GB (16GB approx) Virtual=8192.0GB
+[2014.11.12-00.44.38:936][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.12-00.44.38:936][  0]LogMemory: Process Physical Memory: 63.36 MB used, 63.36 MB peak
+[2014.11.12-00.44.38:936][  0]LogMemory: Process Virtual Memory: 38.63 MB used, 38.63 MB peak
+[2014.11.12-00.44.38:936][  0]LogMemory: Physical Memory: 4320.07 MB used, 16066.05 MB total
+[2014.11.12-00.44.38:936][  0]LogMemory: Virtual Memory: 268.76 MB used, 8388608.00 MB total
+[2014.11.12-00.44.38:967][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2014.11.12-00.44.38:967][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2014.11.12-00.44.38:967][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.12-00.44.38:971][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.12-00.44.38:977][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.12-00.44.39:259][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2014.11.12-00.44.39:356][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.12-00.44.42:822][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-00.44.43:175][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-00.44.43:229][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.12-00.44.43:254][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.12-00.44.43:254][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc
+[2014.11.12-00.44.43:254][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Matt/Projects/gaem/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.12-00.44.43:254][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.12-00.44.43:304][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.12-00.44.43:315][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Matt/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2014.11.12-00.44.43:455][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.12-00.44.43:455][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.12-00.44.43:615][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.12-00.44.43:618][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.11.12-00.44.43:765][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.12-00.44.44:453][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.12-00.44.44:631][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Matt/Projects/gaem/Binaries/Win64. Error: 0
+[2014.11.12-00.44.44:753][  0]SourceControl: Info Source control is disabled
+[2014.11.12-00.44.44:753][  0]SourceControl: Info Source control is disabled
+[2014.11.12-00.44.44:762][  0]SourceControl: Info Source control is disabled
+[2014.11.12-00.44.44:889][  0]LogObj: 22915 objects as part of root set at end of initial load.
+[2014.11.12-00.44.44:889][  0]LogUObjectAllocator: 4803536 out of 0 bytes used by permanent object pool.
+[2014.11.12-00.44.44:939][  0]LogEngine: Initializing Engine...
+[2014.11.12-00.44.45:039][  0]LogInit: XAudio2 using 'Speakers (ASUS Xonar Essence STX Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.12-00.44.45:048][  0]LogInit: FAudioDevice initialized.
+[2014.11.12-00.44.45:070][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.12-00.44.45:086][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Matt/AppData/Local/UnrealEngine/4.5/DerivedDataCache/Boot.ddc.
+[2014.11.12-00.44.45:088][  0]LogInit: Texture streaming: Enabled
+[2014.11.12-00.44.45:134][  0]LogInit: Transaction tracking system initialized
+[2014.11.12-00.44.45:240][  0]BlueprintLog: New page: Editor Load
+[2014.11.12-00.44.45:272][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.11.12-00.44.45:272][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2014.11.12-00.44.45:656][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-00.44.45:904][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.12-00.44.46:136][  0]LogConsoleResponse:Display: 
+[2014.11.12-00.44.46:322][  0]SourceControl: Info Source control is disabled
+[2014.11.12-00.44.46:322][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Matt/Projects/gaem/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.12-00.44.46:322][  0]LightingResults: New page: Lighting Build
+[2014.11.12-00.44.46:333][  0]MapCheck: New page: Map Check
+[2014.11.12-00.44.46:333][  0]LightingResults: New page: Lighting Build
+[2014.11.12-00.44.46:350][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017E06A20
+[2014.11.12-00.44.46:635][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.12-00.44.46:635][  0]LogAIModule: Creating AISystem for world My2DMap
+[2014.11.12-00.44.46:636][  0]Cmd: MAP CHECKDEP
+[2014.11.12-00.44.46:636][  0]MapChec
