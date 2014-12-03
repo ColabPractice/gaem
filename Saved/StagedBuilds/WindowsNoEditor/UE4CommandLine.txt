@@ -1,1 +1,1 @@
-../../../gaem/gaem.uproject  /Game/My2DMap -Messaging -SessionId=A6A586A44DE59149BF5AD0967A886B85 -SessionOwner=Matt -SessionName='Play On Device'   
+../../../gaem/gaem.uproject   -Messaging  -SessionId=D90F5142406715B0899B02ABBAE96095 -SessionOwner=Matt -SessionName='BIGRED'   -filehostip=192.168.1.12+127.0.0.1 
